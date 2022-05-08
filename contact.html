@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>CAJS1contact</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <main>
+        <div class="headerText">
+            <h1>Magic The Gathering</h1>
+            <h2>Sign up and get 20 Magic cards for free!</h2>
+        </div>
+        <form>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname">
+            <p class="formError firstNameError">Please enter a firstname</p>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject">
+            <p class="formError subjectError">Subject must contain 10 characters</p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <p class="formError emailError">Please enter a valid email</p>
+            <label for="address">Address</label> 
+            <input type="text" name="address" id="address">
+            <p class="formError addressError">Address must contain 25 characters</p>
+    
+            <button id="submit">Submit</button>
+        </form>
+    </main>
+    <script src="js/components/alert.js"></script>
+    <script src="js/contact.js"></script>
+    
+</body>
+</html>
