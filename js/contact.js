@@ -7,7 +7,7 @@ const addressError = document.querySelector('.addressError');
 submit.onclick = function (event) {
   event.preventDefault();
 
-  const firstName = document.querySelector('#firstname').value.trim();
+  const firstName = document.querySelector('#name').value.trim();
   const subject = document.querySelector('#subject').value.trim();
   const email = document.querySelector('#email').value.trim();
   const address = document.querySelector('#address').value.trim();
